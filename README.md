@@ -2,6 +2,8 @@
 
 ## Rules
 
+![screenshot](https://github.com/CT15/Bubble-Blast-Saga/blob/master/ReadmeImages/screenshot.jpeg "Screenshot")
+
 - Normal Puzzle Bobble rules applies
 - When the bubbles reaches the red line, the player loses
 - Special bubbles (depending on their effects) do not guarantee the popping of the bubble shot
@@ -10,7 +12,7 @@
 
 ## Class Diagram Sketch
 
-![class-diagram](https://github.com/cs3217/2018-ps5-CT15/blob/master/class-diagram.jpeg "Class Diagram")
+![class-diagram](https://github.com/CT15/Bubble-Blast-Saga/blob/master/ReadmeImages/class-diagram.jpeg "Class Diagram")
 
 For the **Controller**, I have MainViewController which has reference to all other controllers. This makes navigation from one Controller to another Controller easier. This also reduces a lot of boilerplate code for adding and removing child ViewController. The continuous audio that plays in the background will also only need to be initialised once in the MainViewController.
 
