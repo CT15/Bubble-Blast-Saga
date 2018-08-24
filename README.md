@@ -1,8 +1,8 @@
 # Bubble Blast Saga
 
-## Rules
-
 ![screenshot](https://github.com/CT15/Bubble-Blast-Saga/blob/master/ReadmeImages/screenshot.jpeg "Screenshot")
+
+## Rules
 
 - Normal Puzzle Bobble rules applies
 - When the bubbles reaches the red line, the player loses
