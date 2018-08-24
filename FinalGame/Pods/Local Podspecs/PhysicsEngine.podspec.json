@@ -1,0 +1,24 @@
+{
+  "name": "PhysicsEngine",
+  "version": "0.0.1",
+  "summary": "For CS3217 Bubble Blast Saga project.",
+  "description": "Physics engine for Bubble Blast Saga game.",
+  "homepage": "https://github.com/CT15",
+  "license": "MIT",
+  "authors": {
+    "Calvin Tantio": "calvin.tantio@u.nus.edu"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/cs3217/2018-ps4-CT15.git",
+    "branch": "v0.0.1",
+    "tag": "v0.0.1"
+  },
+  "source_files": [
+    "BubbleBlastSaga/BubbleBlastSaga/GameEngine/GameMath.swift",
+    "BubbleBlastSaga/BubbleBlastSaga/GameEngine/MovingObject.swift"
+  ],
+  "exclude_files": ""
+}

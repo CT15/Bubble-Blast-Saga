@@ -1,0 +1,6 @@
+framework module Pods_FinalGame {
+  umbrella header "Pods-FinalGame-umbrella.h"
+
+  export *
+  module * { export * }
+}

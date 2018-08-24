@@ -1,0 +1,25 @@
+PODS:
+  - PhysicsEngine (0.0.1)
+  - SwiftLint (0.25.0)
+
+DEPENDENCIES:
+  - PhysicsEngine (from `https://github.com/cs3217/2018-ps4-CT15.git`, branch `v0.0.1`)
+  - SwiftLint
+
+EXTERNAL SOURCES:
+  PhysicsEngine:
+    :branch: v0.0.1
+    :git: https://github.com/cs3217/2018-ps4-CT15.git
+
+CHECKOUT OPTIONS:
+  PhysicsEngine:
+    :commit: 14c5f46a30d3f403fc4fc6dd4f9e4062de678562
+    :git: https://github.com/cs3217/2018-ps4-CT15.git
+
+SPEC CHECKSUMS:
+  PhysicsEngine: 2fce55b857764235f91d129c831081976f7346df
+  SwiftLint: e14651157288e9e01d6e1a71db7014fb5744a8ea
+
+PODFILE CHECKSUM: 707744b342de8adf6e8e1693a8f0ae37c2647752
+
+COCOAPODS: 1.4.0
