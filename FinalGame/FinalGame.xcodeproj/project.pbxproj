@@ -451,13 +451,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B237D3762046C8B8003B34F2 /* Build configuration list for PBXNativeTarget "FinalGame" */;
 			buildPhases = (
-				B2D50688204C4C7C0042E3EC /* ShellScript */,
 				5E688639852ED6D294650269 /* [CP] Check Pods Manifest.lock */,
+				B2D50688204C4C7C0042E3EC /* ShellScript */,
 				B237D3552046C8B8003B34F2 /* Sources */,
 				B237D3562046C8B8003B34F2 /* Frameworks */,
 				B237D3572046C8B8003B34F2 /* Resources */,
 				B34FA247D0387197BDD7C264 /* [CP] Embed Pods Frameworks */,
-				D86661A46448D025B936C7D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,8 +475,6 @@
 				B237D3692046C8B8003B34F2 /* Sources */,
 				B237D36A2046C8B8003B34F2 /* Frameworks */,
 				B237D36B2046C8B8003B34F2 /* Resources */,
-				B5C583DF96ED052E5FE742FF /* [CP] Embed Pods Frameworks */,
-				32AD8B61BFED6B6A455C02B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -572,21 +569,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		32AD8B61BFED6B6A455C02B5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalGameTests/Pods-FinalGameTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5E688639852ED6D294650269 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -634,36 +616,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalGame/Pods-FinalGame-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B5C583DF96ED052E5FE742FF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalGameTests/Pods-FinalGameTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D86661A46448D025B936C7D5 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FinalGame/Pods-FinalGame-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

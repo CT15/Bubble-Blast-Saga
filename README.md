@@ -20,7 +20,7 @@ For the **View**, Cannon class has been created separately from the rest of the 
 
 All the **View**s have **Controller** as their delegates to process user action such as button press or tapping on the playing area or level designer.
 
-## Testing Instruction
+## Testing Instructions
 
 Black-box testing:
 - Test background music

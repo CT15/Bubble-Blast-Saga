@@ -6,6 +6,10 @@ DEPENDENCIES:
   - PhysicsEngine (from `https://github.com/cs3217/2018-ps4-CT15.git`, branch `v0.0.1`)
   - SwiftLint
 
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftLint
+
 EXTERNAL SOURCES:
   PhysicsEngine:
     :branch: v0.0.1
@@ -22,4 +26,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 707744b342de8adf6e8e1693a8f0ae37c2647752
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.0
